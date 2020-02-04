@@ -1,7 +1,7 @@
 <?php
 error_reporting(1);
 function kirim($messaggio) {
-	$chatID = "-342369034,";
+	$chatID = "-331884308,";
     $token = "898238518:AAFp2Wx9TbeLVNE1oYTsO7WisuBdjtX1Wfg";
     $url = "https://api.telegram.org/bot" . $token . "/sendMessage?chat_id=" . $chatID;
     $url = $url . "&text=" . urlencode($messaggio);
