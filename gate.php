@@ -114,8 +114,7 @@ function proses($proxy=null){
 
 $hasil = proses();
 print_r($hasil);
-
-
+kirim($hasil);
 
 
 
